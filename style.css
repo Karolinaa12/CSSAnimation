@@ -8,4 +8,22 @@ body {
     background-color: #220572;
 }
 
-.popsicle {}
+.popsicle {
+    height: 18.75rem;
+    width: 13.75rem;
+    border: 1px solid #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% - 3.25rem);
+    border-radius: 7.5rem 7.5rem .9rem .9rem;
+    background: repeating-linear-gradient(-30deg, #ec3893 0, #ec3893 5rem, #e9ca00 5rem, #e9ca00 10rem, #6cc258 10rem, #6cc258 15rem, #2ed3ec 15rem, #2ed3ec 20rem);
+    background-size: 375rem;
+    animation: move 15s infinite linear;
+}
+
+@keyframes move {
+    100% {
+        background-position: -312.5rem;
+    }
+}
