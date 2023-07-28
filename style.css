@@ -49,3 +49,9 @@ body {
     top: 18.75rem;
     border-radius: 0 0 1.87rem 1.87rem;
 }
+
+.popsicle:hover {
+    animation: none;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1.5rem 0.5rem rgb(0, 0, 0);
+}
